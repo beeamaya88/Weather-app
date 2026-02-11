@@ -211,7 +211,9 @@ const App = () => {
         </div>
       )}
       {/* 5-day forecast */}
-      <h3>5-Day Forecast</h3>
+      
+      <h3 className="forecast-title">5-Day Forecast</h3>
+
       <div className="forecast-container">
         {dailyData.map((day, index) => {
           const date = new Date();
